@@ -1,0 +1,16 @@
+<html>
+    <head>
+        
+    </head>
+<!-- loader library script -->
+<script src="./lex-web-ui-loader.js"></script>
+<script src="https://lex-web-ui-codebuilddeploy-x48019zau-webappbucket-15k1rufoibex3.s3.amazonaws.com/lex-web-ui-loader.min.js"></script>
+<script>
+  var loaderOpts = {
+    baseUrl: 'https://lex-web-ui-codebuilddeploy-x48019zau-webappbucket-15k1rufoibex3.s3.amazonaws.com/'
+  };
+  var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+  loader.load()
+    .catch(function (error) { console.error(error); });
+</script>
+</html>

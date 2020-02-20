@@ -1,0 +1,16 @@
+{
+    "cognito": {
+      "poolId": "us-east-1:d0ed19cf-6f6b-45c6-a836-e604e387caa1",
+      "appUserPoolClientId": "",
+      "appUserPoolName": "",
+      "appDomainName": "",
+      "appUserPoolIdentityProvider": ""
+    },
+    "lex": {
+        "botName": "HUPA",
+        "botAlias": "$LATEST",
+        "initialText": "",
+        "initialSpeechInstruction": "",
+        "reInitSessionAttributesOnRestart": false
+    }
+}

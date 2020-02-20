@@ -1,0 +1,29 @@
+{
+  "name": "lex",
+  "version": "1.0.0",
+  "description": "\"# hupa\"",
+  "main": "index.js",
+  "dependencies": {
+    "aws-lex-web-ui": "^0.13.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "vue": "^2.6.11",
+    "vuetify": "^2.2.14",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cornpop99/hupa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cornpop99/hupa/issues"
+  },
+  "homepage": "https://github.com/cornpop99/hupa#readme"
+}
