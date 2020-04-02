@@ -1,0 +1,41 @@
+{
+  "cognito": {
+    "poolId": "us-east-1:b34eb26a-261e-4124-b007-6293eab3fa6d",
+    "appUserPoolClientId": "UserMustSupply",
+    "appUserPoolName": "UserMustSupply",
+    "appDomainName": "",
+    "appUserPoolIdentityProvider": ""
+  },
+  "lex": {
+    "botName": "HUPA",
+    "botAlias": "$LATEST",
+    "initialText": "Hello, I'm HUPA. Here to help you.",
+    "initialSpeechInstruction": "Hello, Welcome to HUPA",
+    "reInitSessionAttributesOnRestart": false
+  },
+  "ui": {
+    "parentOrigin": "https://hupa-web-ui-codebuilddeploy-11032bsb-webappbucket-52doa0vjhfyd.s3.amazonaws.com",
+    "toolbarTitle": "HUPA",
+    "toolbarLogo": "",
+    "positiveFeedbackIntent": "Thumbs up",
+    "negativeFeedbackIntent": "Thumbs down",
+    "helpIntent": "Help",
+    "enableLogin": false,
+    "AllowSuperDangerousHTMLInMessage": true,
+    "shouldDisplayResponseCardTitle": true,
+    "pushInitialTextOnRestart": false,
+    "directFocusToBotInput": false,
+    "showDialogStateIcon": false
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "iframe": {
+    "iframeOrigin": "https://hupa-web-ui-codebuilddeploy-11032bsb-webappbucket-52doa0vjhfyd.s3.amazonaws.com",
+    "shouldLoadIframeMinimized": false,
+    "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
+  }
+}
